@@ -16,6 +16,7 @@ sudo iptables -A INPUT -j NFQUEUE --queue-num 0
 - 접속 방법: firefox 브라우저에서 test.gilgil.net 접속
 <br>
 [출력 결과 예시]
+
 ![image](https://user-images.githubusercontent.com/60030828/130336832-92500fa6-787f-44c7-914b-b3e8967f39d0.png)
 
 
@@ -28,6 +29,7 @@ sudo iptables -A INPUT -j NFQUEUE --queue-num 0
 
 <br>
 [출력 결과 예시]
+
 ![image](https://user-images.githubusercontent.com/60030828/130336818-655e77e6-c4c1-4fe8-86d5-7d2c39844dcc.png)
 
 
