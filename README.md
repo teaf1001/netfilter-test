@@ -16,8 +16,8 @@ sudo iptables -A INPUT -j NFQUEUE --queue-num 0
 - 접속 방법: firefox 브라우저에서 test.gilgil.net 접속
 <br>
 [출력 결과 예시]
+![image](https://user-images.githubusercontent.com/60030828/130336832-92500fa6-787f-44c7-914b-b3e8967f39d0.png)
 
-![image](https://user-images.githubusercontent.com/60030828/130336632-6409054b-503c-4ece-8fc6-cf4c278c6795.png)
 
 ------------------------------
 [악성 사이트 접근] 
@@ -28,8 +28,8 @@ sudo iptables -A INPUT -j NFQUEUE --queue-num 0
 
 <br>
 [출력 결과 예시]
+![image](https://user-images.githubusercontent.com/60030828/130336818-655e77e6-c4c1-4fe8-86d5-7d2c39844dcc.png)
 
-![image](https://user-images.githubusercontent.com/60030828/130336681-227c914c-c19e-4ab2-9edd-f1bdcb4d9dd1.png)
 
 ------------------------------
 [HTTP 요청 패킷이 아닌 경우]
