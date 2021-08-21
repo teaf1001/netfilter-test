@@ -12,6 +12,7 @@ sudo iptables -A INPUT -j NFQUEUE --queue-num 0
 - 접속 방법: firefox 브라우저에서 test.gilgil.net 접속
 
 [출력 결과 예시]
+
 ![image](https://user-images.githubusercontent.com/60030828/130336632-6409054b-503c-4ece-8fc6-cf4c278c6795.png)
 
 ------------------------------
@@ -22,6 +23,7 @@ sudo iptables -A INPUT -j NFQUEUE --queue-num 0
 You Visit Malicous Page: [패킷 raw data에서 가져온 request host]
 
 [출력 결과 예시]
+
 ![image](https://user-images.githubusercontent.com/60030828/130336681-227c914c-c19e-4ab2-9edd-f1bdcb4d9dd1.png)
 
 ------------------------------
@@ -32,5 +34,6 @@ You Visit Malicous Page: [패킷 raw data에서 가져온 request host]
     - HTTP가 아닌 응용계층 패킷   -> 'GET /'을 찾을 수 없기 때문에 전부 ACCEPT
 
 [출력 결과 예시]
+
 ![image](https://user-images.githubusercontent.com/60030828/130336692-dc22d04f-8ccc-4712-bf3a-25eeec710793.png)
 
