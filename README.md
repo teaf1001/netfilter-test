@@ -20,7 +20,7 @@ sudo iptables -A INPUT -j NFQUEUE --queue-num 0
 - 입력: sudo ./nfqnl_test gilgil.net
 - 접속 방법: firefox 브라우저에서 gilgil.net 접속
 
-You Visit Malicous Page: [패킷 raw data에서 가져온 request host]
+You Visit Malicous Page: [패킷 raw data에서 가져온 request host uri]
 
 [출력 결과 예시]
 
